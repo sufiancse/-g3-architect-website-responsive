@@ -2,7 +2,13 @@
 body{
     font-family: "Work Sans", sans-serif;
 }
-
+main{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+main > section{
+    margin-top: 110px;
+}
 /* shared section */
 
 .dark-1{
@@ -72,9 +78,40 @@ body{
     font-size: 4rem;
     font-weight: bold;
 }
+/* .banner-img-div{
+    padding-bottom: 45px;
+} */
 .banner-image{
     width: 100%;
 }
+
+/* team image and features section */
+.teams{
+    align-items: center;
+}
+
+.team-image-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.features{
+    margin-left: 70px;
+    max-width: 530px;
+}
+.features-title{
+    font-size: 2.83rem;
+    font-weight: bold;
+}
+#quick-list{
+    font-weight: 500;
+}
+#features{
+    color: #FF900E;
+}
+
+
+
 
 
 
