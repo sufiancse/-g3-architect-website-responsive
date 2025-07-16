@@ -9,7 +9,12 @@ main{
 main > section{
     margin-top: 110px;
 }
+
+
+
 /* shared section */
+
+
 
 .dark-1{
     color: #131313;
@@ -34,6 +39,11 @@ main > section{
     padding: 20px 25px;
     font-size: 1.25rem;
     font-weight: 600;
+}
+
+.section-title{
+    font-size: 2.83rem;
+    font-weight: bold;
 }
 
 /* Nav and header section */
@@ -100,10 +110,7 @@ main > section{
     margin-left: 70px;
     max-width: 530px;
 }
-.features-title{
-    font-size: 2.83rem;
-    font-weight: bold;
-}
+
 #quick-list{
     font-weight: 500;
 }
