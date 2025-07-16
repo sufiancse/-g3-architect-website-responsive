@@ -120,6 +120,45 @@ main > section{
 }
 
 
+
+/* features you will love and enjoy */
+
+.features-love-enjoy{
+    gap: 140px;
+}
+
+#features-title-border{
+    border-left: 5px solid #FF900E;
+    padding: 20px;
+}
+.feature-card .feature-name{
+    font-size: 1.25rem;
+    color: #131313;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.feature-card{
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+#experience-badge{
+    padding: 46px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+#experience-year{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.featured-architect img{
+    width: 100%;
+}
+
 /* some facts */
 .facts-container{
     display: grid;
@@ -175,12 +214,19 @@ main > section{
 }
 
 
+
+/* footer */
+
+
+
+
 /* responsive media query */
 
 @media screen and (max-width:576px) {
     .navbar,
     .nav-items,
-    .teams
+    .teams,
+    .features-love-enjoy
     {
         flex-direction: column;
     }
@@ -199,12 +245,17 @@ main > section{
         justify-items: center;
         gap: 24px;
     }
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
 }
 
 
 /* responsive screen for medium device */
 @media screen and (min-width:576px) and (max-width:992px) {
-    .teams{
+    .teams,
+    .features-love-enjoy{
         flex-direction: column;
     }
     .features{
@@ -216,7 +267,14 @@ main > section{
         gap: 5px;
     }
     .sponsor-companies{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 30px;
+        /* margin-left: 20px; */
+        justify-items: center;
     }
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
 }
