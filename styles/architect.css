@@ -78,12 +78,13 @@ main > section{
     font-size: 4rem;
     font-weight: bold;
 }
-/* .banner-img-div{
-    padding-bottom: 45px;
-} */
+
 .banner-image{
     width: 100%;
 }
+
+
+
 
 /* team image and features section */
 .teams{
@@ -119,8 +120,27 @@ main > section{
 
 @media screen and (max-width:576px) {
     .navbar,
-    .nav-items
+    .nav-items,
+    .teams
     {
         flex-direction: column;
     }
+    .team-image-container{
+        grid-template-columns: 1fr;
+    }
+    .features{
+        margin-left: 10px;
+    }
+}
+
+
+/* responsive screen for medium device */
+@media screen and (min-width:576px) and (max-width:992px) {
+    .teams{
+        flex-direction: column;
+    }
+    .features{
+        margin: 10px auto;
+    }
+    
 }
